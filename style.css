@@ -1,0 +1,90 @@
+/* body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+    max-height: 200px;
+} */
+
+.container1 {
+    /* background-color: #ececec;
+    border-radius: 20px; */
+    padding: 10px;
+    margin: 10px 0;
+    width:100%;
+}
+S
+.container-leftt{
+    float: left;
+    width:50%;
+    margin-bottom:25px;
+    
+    border-radius: 5px;
+    background-color: rgb(159, 241, 92);
+    padding:10px;
+}
+
+.container-right{
+    float: right;
+    width:50%;
+    background-color: lightskyblue;
+   
+    margin-bottom:25px;
+   
+    border-radius: 5px;
+    padding:10px;
+
+   
+}
+
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container-input input{
+   
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; 
+    width: 90%; /* Full width */
+    background-color: darkgray;
+}
+.container-input
+{
+
+}
+
+
+
+.cover
+{
+    width:100%;
+    margin-top: 20px;
+}
+.content
+{
+    margin-top:15px;
+    margin-bottom:30%;
+}
+.name
+{
+    font-weight: bold;
+}
+
+
+.message input
+{
+    height:30px; 
+   
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; 
+    width: 80%; /* Full width */
+    background-color: darkgray;
+    
+}
+
+.message{
+    padding-bottom:15px;
+   
+    
+}
